@@ -171,7 +171,6 @@ $(document).ready(function() {
         });
         elem.append($ripple);
     }
-    var i = 0;
     $(document).on("click", ".contact", function(e) {
         if (animating) return;
         animating = true;
@@ -183,7 +182,6 @@ $(document).ready(function() {
         $(".chat__online").removeClass("active");
         if (online) $(".chat__online").addClass("active");
         ripple($(that), e);
-        i=i+1;
         // console.log($(this).find('.contact__name').text());
         var showDiv = $(this).find('.contact__name').text();
         setTimeout(function() {
@@ -196,9 +194,9 @@ $(document).ready(function() {
                     curX = -80;
                     finalX = 0;
                     animatePathD($path, clickD, animTime * 2 / 3, true, function() {
-                    	console.log(showDiv);
-                    	showDiv = showDiv.replace(/ /g,'');
-                    	$chat = $('.'+showDiv).eq(0);
+                        console.log(showDiv);
+                        showDiv = showDiv.replace(/ /g, '');
+                        $chat = $('.' + showDiv).eq(0);
                         $chat.show();
                         $chat.css("top");
                         $chat.addClass("active");

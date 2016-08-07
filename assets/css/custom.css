@@ -378,7 +378,7 @@ svg {
 
 .experience_blk {
     border: 1px solid #ccc;
-    margin-bottom:1rem; 
+    margin-bottom: 1rem;
 }
 
 .experience_blk h2 {
@@ -390,15 +390,17 @@ svg {
     margin: 10px 0px;
 }
 
-.dual-col{
+.dual-col {
     width: 50%;
     float: left;
 }
+
 .dual-col h2 {
     color: #2473a0;
     font-size: 15px;
     margin-bottom: 10px;
 }
+
 .w3-progress-container {
     width: 90%;
     height: 0.7em;
@@ -412,32 +414,36 @@ svg {
     -ms-transition: all ease 0.5s;
     transition: all ease 0.5s;
 }
+
 .w3-progressbar {
-    background: rgba(34,125,170,1);
-    background: -moz-linear-gradient(left, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34,125,170,1)), color-stop(100%, rgba(81,172,205,1)));
-    background: -webkit-linear-gradient(left, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
-    background: -o-linear-gradient(left, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
-    background: -ms-linear-gradient(left, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
-    background: linear-gradient(to right, rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#227daa', endColorstr='#51accd', GradientType=1 );
+    background: rgba(34, 125, 170, 1);
+    background: -moz-linear-gradient(left, rgba(34, 125, 170, 1) 0%, rgba(81, 172, 205, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(34, 125, 170, 1)), color-stop(100%, rgba(81, 172, 205, 1)));
+    background: -webkit-linear-gradient(left, rgba(34, 125, 170, 1) 0%, rgba(81, 172, 205, 1) 100%);
+    background: -o-linear-gradient(left, rgba(34, 125, 170, 1) 0%, rgba(81, 172, 205, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(34, 125, 170, 1) 0%, rgba(81, 172, 205, 1) 100%);
+    background: linear-gradient(to right, rgba(34, 125, 170, 1) 0%, rgba(81, 172, 205, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#227daa', endColorstr='#51accd', GradientType=1);
     height: 100%;
     position: absolute;
     line-height: inherit;
 }
-.mail_to{
-  font-size: 4rem;
+
+.mail_to {
+    font-size: 4rem;
     text-decoration: none;
     color: #444;
 }
-.best_view_txt{
-      width: 100%;
+
+.best_view_txt {
+    width: 100%;
     display: block;
     color: #fff;
     font-style: italic;
     text-align: center;
     margin: 5px 0px;
 }
+
 .ripple {
     position: absolute;
     width: 10rem;
