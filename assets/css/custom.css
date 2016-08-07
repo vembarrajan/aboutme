@@ -430,7 +430,14 @@ svg {
     text-decoration: none;
     color: #444;
 }
-
+.best_view_txt{
+      width: 100%;
+    display: block;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+    margin: 5px 0px;
+}
 .ripple {
     position: absolute;
     width: 10rem;
